@@ -20,19 +20,19 @@
 
 
 <tr>
-<th class="f1_label">OCCUPATION:</th> 
-<td><input type="text" name="occptn" placeholder="Surabhi"></td>
+<th class="f1_label">COMPANY NAME:</th> 
+<td><input type="text" name="occptn" placeholder="BITWISE" pattern="([a-zA-Z]{2,30}\s*)+" title="Minimum 2 letters and no digits,special characters allowed " required></td>
 </tr>
 
 <tr>
-<th class="f1_label">OCCUPATION PLACE :</th> 
-<td><input type="text" name="occ_place" placeholder="Pune"></td>
+<th class="f1_label">COMPANY LOCATION :</th> 
+<td><input type="text" name="occ_place" placeholder="Pune" pattern="([a-zA-Z]{2,30}\s*)+" title="Minimum 2 letters and no digits,special characters allowed " required></td>
 </tr>
 
 
 <tr>
-<th class="f1_label">CONTACT :</th> 
-<td><input type="text" name="contact" placeholder="9865324512"></td>
+<th class="f1_label">COMPANY CONTACT NUMBER:</th> 
+<td><input type="text" name="contact" placeholder="9865324512" PATTERN ="^[7-9][0-9]{9}$" title="10  digits INDIAN MOBILE NO . NO special characters allowed " required></td>
 </tr>
 
 </table>
