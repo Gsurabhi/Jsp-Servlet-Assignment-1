@@ -15,19 +15,19 @@
 <table>
 <tr>
 <th class="f1_label">SSC MARKS :</th> 
-<td><input type="text" name="ssc" placeholder="90.63" pattern="^100(\.0{1,2})?$)|(^([1-9]([0-9])?|0)(\.[0-9]{1,2})?$" required >
+<td><input type="text" name="ssc" placeholder="90.63" pattern="(?!^0*$)(?!^0*\.0*$)^\d{1,2}(\.\d{1,2})?$" title="Two digits with two digits after decimal . No % sign required "  required >
 </td>
 </tr>
 
 <tr>
 <th class="f1_label">HSC MARKS:</th> 
-<td><input type="text" name="hsc" placeholder="88.56" pattern="^100(\.0{1,2})?$)|(^([1-9]([0-9])?|0)(\.[0-9]{1,2})?$" required></td>
+<td><input type="text" name="hsc" placeholder="88.56" pattern="(?!^0*$)(?!^0*\.0*$)^\d{1,2}(\.\d{1,2})?$" title="Two digits with two digits after decimal . No % sign required "  required></td>
 </tr>
 
 
 <tr>
 <th class="f1_label">DIPLOMA :</th> 
-<td><input type="text" name="diploma" placeholder="88.56 / 0 " pattern="^100(\.0{1,2})?$)|(^([1-9]([0-9])?|0)(\.[0-9]{1,2})?$" required></td>
+<td><input type="text" name="diploma" placeholder="88.56 / 0 " pattern="(?!^0*$)(?!^0*\.0*$)^\d{1,2}(\.\d{1,2})?$" title="Two digits with two digits after decimal . No % sign required " required></td>
 </tr>
 
 <tr>
@@ -42,7 +42,7 @@
 
 <tr>
 <th class="f1_label">ANY YEAR GAP :</th> 
-<td><input type="text" name="gap" placeholder="0 / 1" pattern="^100(\.0{1,2})?$)|(^([1-9]([0-9])?|0)(\.[0-9]{1,2})?$" required></td>
+<td><input type="text" name="gap" placeholder="0 / 1" pattern="(\\d)" title="Two digits with two digits after decimal . No % sign required "  required></td>
 </tr>
 </table>
 
